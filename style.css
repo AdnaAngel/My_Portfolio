@@ -1,0 +1,366 @@
+
+body{
+background-color: black;  
+color: white; 
+}
+
+.link{
+float:right;
+margin-right:0;
+color:black;
+
+}
+.li{
+border: 5px solid purple;
+list-style: none;
+float:left;
+padding: 10px 10px;
+font-family: Arial;
+
+}
+link:hover{
+    color:black;
+}
+li:hover{
+background-color: purple;
+}
+a:link{
+text-decoration: none;
+
+}
+a:hover{
+    color:blue;
+}
+/*apresentação*/
+.apresentação{
+border: 5px solid purple;
+
+text-align:left;
+font-size: 35px;
+font-family: "the seasons";
+display:inline-table;
+margin: 45px 300px 20px;
+padding: 30px 20px;
+}
+.dev_web{
+border: 5px solid purple;
+border-radius: 12px;
+padding:20px;
+font-size: 30px;
+justify-content: center;
+text-align: center;
+display: flex;
+width:300px;
+margin:20px 350px 20px 330px;
+}
+.my_photo img{
+
+text-align: right;
+width: 300px;
+height: 450px;
+object-fit: cover;
+border-radius: 50%;
+margin:-450px 200px ;
+padding:50px 50px;
+display:flex;
+float:right;
+
+
+}
+/*quem é a Adna*/
+.livro_cafe img{
+display:flex;
+float: right;
+border-radius: 50%;
+height: 400px;
+width: 250px;
+object-fit: cover;
+margin: -450px 220px;
+padding: 5px 5px;
+position: relative;
+}
+
+.quem_é_a_Adna{
+width:600px ;
+border:5px solid green;
+padding: 10px 10px;
+margin:50px 230px  50px;
+font-size: 40px;
+text-align: center;
+    }
+.definiçao_eu{
+    width:500px ;
+    border:5px solid green;
+    padding: 30px 30px;
+    margin:50px 270px;
+    font-size: 25px;
+    text-align: justify;
+}
+/*minha formação*/
+.minha_formação{
+font-size: 20px;
+margin: 50px 230px;
+text-align: center;
+padding:40px 80px;
+word-spacing: 20%;
+line-height: 20px;
+display: inline-block;
+border: 5px solid purple;
+width: 1000px;
+
+}
+.formaçao{
+font-size: 40px;
+}
+.p{
+color:rgb(250, 58, 180);
+font-size: 20px;
+}
+ul{
+    list-style-type:none;
+}
+/*O que eu busco*/
+.o_que_eu_busco{
+width:700px;
+border:5px solid green;
+padding: 10px 10px;
+margin:20px 230px;
+font-size: 40px;
+text-align: center;
+}
+.aprendiz{
+font-size: 25px;
+width: 320px;
+border:5px solid green;
+padding: 10px 30px;
+margin:20px 400px;
+
+
+}
+.ia img{
+display:flex;
+float: right;
+border-left: 50%;
+border-top-left-radius:  50%;
+border-top-right-radius: 50% ;
+height: 300px;
+width: 280px;
+object-fit: cover;
+margin: -150px -400px;
+padding: 5px 5px;
+text-align: right;
+}
+
+.meus_trabalho{
+display:flex;
+border:5px solid purple;
+justify-content: center;
+font-size: 40px;
+width: 70%;
+margin:20px 230px;
+padding: 10px 10px;
+
+}
+.trabalhos{
+display:flex;
+justify-content: center;
+text-align: center;
+margin-left: 30px;
+flex-direction: column;
+align-items: center;
+object-fit: cover;
+position: relative;
+
+}
+.trab{
+    color:rgb(250, 58, 180);
+    text-align:initial ;
+    
+    padding:10px 15px;
+    text-rendering: initial;
+
+}
+.trab:hover{
+    background-color:rgb(248, 183, 183);
+    color: black; 
+}
+
+.img{
+    border-radius: 40px;
+}
+.pdf{
+    display: inline-block;
+margin:200px;
+width: 700px;
+height: 300px;
+text-align: center;
+}
+.meus_certificados{
+    text-align: center;
+
+}
+.meus_contatos{
+    width:70%;
+    border:5px solid green;
+    padding: 10px 10px;
+    margin:20px 230px;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.contatos{
+display:flex;
+margin-left:70px;
+justify-content: center;
+float: center;
+position: relative;
+}
+
+#h4{
+text-align: center;
+margin:30px;
+
+font-size: 20px;
+}
+
+ul.cont{
+    list-style-type: none;
+}
+
+ul.site{
+list-style-type: none;
+
+}
+#icone{
+    display:flex;
+    align-items: center;
+    margin-left: 30px;
+    width: 8%;
+    margin-bottom: 10px;
+    
+}
+
+#page{
+width: 70%;
+margin:15px 20px;
+color: white;
+border:solid 5px green;
+display:flex;
+padding:10px;
+text-align: center;
+justify-content: flex-start;
+}
+#page:hover{
+    background-color:green;
+    color:black;   
+}
+.footer{
+    text-align: center;
+    justify-content:flex-start;
+    margin-bottom: 20px;
+    padding: 50px;
+    display:block;
+    width: 70%;
+    margin-left: 150px;
+}
+
+@media screen and (max-width: 720px){
+body{
+    width: 100%;
+}
+.link,#li{
+visibility: hidden;
+display:block;
+width: 300px;
+}
+.apresentação,.dev_web{
+    text-align:center;
+    margin:40px 50px;
+    font-size: 15px; 
+    padding: 20px 20px;    
+}
+.dev_web{
+    text-align: center;
+    margin:40px 30px;
+    padding:10px 10px;
+    width: 30%;
+    font-size: 25px;
+}
+.my_photo{
+    display:inline-flex;
+    align-items: right;
+   margin:5px 40px 70px 70px;
+   padding:10px 10px;
+   width: 15px;
+}
+
+.quem_é_a_Adna{
+    margin:50px 40px 50px 40px;
+    width: 550px;
+}
+.definiçao_eu{
+    margin:50px 110px 50px 110px;
+    padding: 30px 35px 30px 30px;
+    width: 350px;
+}
+.livro_cafe{
+display:none;
+}
+.minha_formação{
+margin:50px 15px 50px 15px;
+padding: 40px 5px;
+font-size: 25px;
+display:inline-block;
+width: 620px;
+}
+.p{
+    font-size: 25px;
+}
+.o_que_eu_busco{
+    margin:20px 15px;
+    padding:10px;
+    width: 620px;
+}
+.aprendiz{
+margin:20px 80px 50px 60px;
+padding:30px 50px 40px;
+width: 450px;
+font-size: 30px;
+display: inline-block;
+}
+.trabalhos{
+font-size: 25px;
+width: 640px;
+margin:40px 0;
+}
+.meus_trabalho{
+margin:20px;
+padding:10px;
+width: 500px;
+}
+.pdf{
+display:table-cell;
+width: 600px;
+margin:10px 20px;
+}
+.meus_contatos{
+    margin:20px;
+    width: 600px;
+}
+.contatos{
+width: 570px;
+font-size: 25px;
+}
+#h4{
+    font-size: 30px;
+}
+.footer{
+    margin:20px 20px 20px 30px;
+    font-size: 25px;
+    padding: 50px 20px;
+    width: 570px;
+    color: white;
+}
+}
+
